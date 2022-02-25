@@ -58,15 +58,5 @@ public class Rook extends ChessPiece {
         return "R";
     }
 
-    public int getMax(int a, int b) {
-        return Math.max(a, b);
-    }
 
-    public int getMin(int a, int b) {
-        return Math.min(a, b);
-    }
-
-    public boolean checkPos(int pos) {
-        return pos >= 0 && pos <= 7;
-    }
 }
